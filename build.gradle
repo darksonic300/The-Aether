@@ -82,7 +82,11 @@ configurations {
 dependencies {
     implementation "com.aetherteam.nitrogen:nitrogen_internals:${project.nitrogen_version}"
     implementation "com.aetherteam.cumulus:cumulus_menus:${project.cumulus_version}"
-    implementation "io.wispforest:accessories-neoforge:${project.accessories_version}+1.21.2"
+    implementation "curse.maven:accessories-938917:5986891"
+    implementation "curse.maven:owo-lib-532610:5983390"
+
+    // Version 1.2.3-beta of Accessories is somehow broken
+    //implementation "io.wispforest:accessories-neoforge:${project.accessories_version}+1.21.2"
 
     jarJar("com.aetherteam.nitrogen:nitrogen_internals:${project.nitrogen_version}") {
         version {
@@ -98,12 +102,13 @@ dependencies {
         }
     }
 
+    /*
     jarJar("io.wispforest:accessories-neoforge:${project.accessories_version}+1.21.2") {
         version {
             strictly "[${project.accessories_version}+1.21.2,)"
             prefer "${project.accessories_version}+1.21.2"
         }
-    }
+    }*/
 
 //    runtimeOnly "io.github.flemmli97:debugutils:1.21-${project.debugutils_version}-neoforge" //todo
 //

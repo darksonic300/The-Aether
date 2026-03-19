@@ -38,7 +38,6 @@ public class AetherRecipeBookCategories {
         event.register(FREEZABLE_SEARCH, FREEZABLE_BLOCKS.get(), FREEZABLE_MISC.get());
         event.register(INCUBATION_SEARCH, INCUBATION_MISC.get());
 
-
 //        event.registerBookCategories(AetherRecipeBookTypes.ALTAR, ImmutableList.of(ENCHANTING_SEARCH.get(), ENCHANTING_FOOD.get(), ENCHANTING_BLOCKS.get(), ENCHANTING_MISC.get(), ENCHANTING_REPAIR.get()));
 //        event.registerAggregateCategory(ENCHANTING_SEARCH.get(), ImmutableList.of(ENCHANTING_FOOD.get(), ENCHANTING_BLOCKS.get(), ENCHANTING_MISC.get(), ENCHANTING_REPAIR.get()));
 //        event.registerRecipeCategoryFinder(AetherRecipeTypes.ENCHANTING.get(), recipe -> {

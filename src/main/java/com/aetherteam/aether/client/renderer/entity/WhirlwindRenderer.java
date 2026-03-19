@@ -4,14 +4,15 @@ import com.aetherteam.aether.entity.monster.AbstractWhirlwind;
 import net.minecraft.client.renderer.entity.EntityRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.entity.state.EntityRenderState;
+import net.minecraft.client.renderer.entity.state.LivingEntityRenderState;
 
-public class WhirlwindRenderer extends EntityRenderer<AbstractWhirlwind, EntityRenderState> {
+public class WhirlwindRenderer extends EntityRenderer<AbstractWhirlwind, LivingEntityRenderState> {
     public WhirlwindRenderer(EntityRendererProvider.Context context) {
         super(context);
     }
 
     @Override
-    public EntityRenderState createRenderState() {
-        return new EntityRenderState();
+    public LivingEntityRenderState createRenderState() {
+        return new LivingEntityRenderState();
     }
 }

@@ -72,7 +72,8 @@ public class Aerbunny extends AetherAnimal {
     public static AttributeSupplier.Builder createMobAttributes() {
         return Mob.createMobAttributes()
                 .add(Attributes.MAX_HEALTH, 6.0)
-                .add(Attributes.MOVEMENT_SPEED, 0.28);
+                .add(Attributes.MOVEMENT_SPEED, 0.28)
+                .add(Attributes.TEMPT_RANGE, 10);
     }
 
     @Override

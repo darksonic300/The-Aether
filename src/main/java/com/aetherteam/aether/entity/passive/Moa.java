@@ -125,6 +125,7 @@ public class Moa extends MountableAnimal implements WingedBird {
                 .add(Attributes.MOVEMENT_SPEED, 1.0)
                 .add(Attributes.FOLLOW_RANGE, 16.0)
                 .add(Attributes.ATTACK_DAMAGE, 5.0)
+                .add(Attributes.TEMPT_RANGE, 10)
                 .add(AetherAttributes.MOA_MAX_JUMPS, -1.0); //placeholder until the real value is initialized
     }
 
